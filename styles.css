@@ -3,3 +3,39 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+
+body {
+  min-width: 290px;
+  
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #4d4e53;
+  background-color: #ffffff;
+  line-height: 1.5;
+
+}
+
+.titles--header {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.titles {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.navigation {
+  margin: 16px 0;
+  height: 207px;
+
+  border: 2px solid;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.navigation__link {
+  padding: 10px 30px;
+  cursor: pointer;
+  border-top: 1px solid;
+}
