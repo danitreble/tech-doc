@@ -11,7 +11,11 @@ body {
   color: #4d4e53;
   background-color: #ffffff;
   line-height: 1.5;
+}
 
+.page-wraper {
+  padding: 0 20px 20px;
+  margin-bottom: 110px;
 }
 
 .titles--header {
@@ -25,6 +29,10 @@ body {
   font-size: 1.8rem;
 }
 
+.main-text__container {
+  margin: 15px 0;
+}
+
 .navigation {
   margin: 16px 0;
   height: 207px;
@@ -34,8 +42,40 @@ body {
   overflow-y: scroll;
 }
 
-.navigation__link {
+.navigation__link-container {
   padding: 10px 30px;
   cursor: pointer;
   border-top: 1px solid;
 }
+
+.navigation__link,
+.navigation__link:any-link {
+  display: block;
+  width: 100%;
+  
+  text-decoration: none;
+  color: #4d4e53;
+}
+
+.main-text,
+.main-text--list-item {
+  font-size: 0.96rem;
+  margin: 15px 0 0 15px;
+}
+
+.main-text--list {
+  padding-left: 40px;
+}
+
+.main-text--list-item {
+  margin: 15px 0 0 20px;
+}
+
+.code-box {
+  display: block;
+  background-color: #f7f7f7;
+  line-height: 2;
+  margin: 10px 0;
+  padding: 15px 0px 15px 10px;
+}
+
